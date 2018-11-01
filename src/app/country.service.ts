@@ -12,7 +12,7 @@ export class CountryService {
         return COUNTRIES;
     }
 
-    getPopulatedCountried(): Country[] {
+    getPopulatedCountries(): Country[] {
         // b.area - a.area returns descending order.
         // .slice(0, 3) returns the first three countries.
         return COUNTRIES.sort((a, b) => b.population - a.population).slice(0, 3);
