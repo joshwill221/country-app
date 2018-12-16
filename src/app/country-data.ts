@@ -40,5 +40,13 @@ export const COUNTRIES: Country[] = [
         population: 12676200,
         currency: 'Yen',
         gdp: 4939384
+    },
+    {
+        name: 'Australia',
+        capital: 'Canberra',
+        area: 7692024,
+        population: 25129600,
+        currency: 'Australian Dollar',
+        gdp: 1323000
     }
 ];
